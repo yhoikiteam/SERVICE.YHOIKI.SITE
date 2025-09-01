@@ -6,15 +6,7 @@ import imageHero from "./../../public/image-1.svg"
 export default function HeroSection() {
     return (
         <div className="">
-            <div className="flex snap-mandatory overflow-auto">
-                <div className="flex shrink-0 gap-5">
-                    <p className="">Programming</p>
-                    <p className="">Tech</p>
-                    <p className="">Grapich & Design</p>
-                    <p className="">Digital Marketing</p>
-                </div>
-
-            </div>
+           
             <div className="grid lg:grid-cols-2 items-center justify-between gap-5">
                 <div className="">
                     <h1 className="text-2xl font-bold">

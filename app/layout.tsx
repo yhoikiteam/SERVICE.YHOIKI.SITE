@@ -31,6 +31,16 @@ export default function RootLayout({
       >
         <div className="container mx-auto">
           <Navbar />
+          <div className="px-5 lg:px-10 xl:px-20 py-5">
+            <div className="flex snap-mandatory overflow-auto">
+              <div className="flex shrink-0 gap-5">
+                <p className="">Programming</p>
+                <p className="">Tech</p>
+                <p className="">Grapich & Design</p>
+                <p className="">Digital Marketing</p>
+              </div>
+            </div>
+          </div>
           {children}
           <Footer />
         </div>
