@@ -1,7 +1,6 @@
 import { Code } from "lucide-react";
-import exampleImageDua from "./../../public/image-1.svg"
+import exampleImageDua from "@/public/image-1.svg";
 import Image from "next/image";
-import ButtonPrimary from "../components/ButtonPrimary";
 
 export default function ProductPage() {
     return (
@@ -10,7 +9,6 @@ export default function ProductPage() {
             <div className="my-5">
                 <div className="flex snap-mandatory overflow-auto">
                     <div className="flex shrink-0 gap-5">
-
                         <div className="flex flex-col items-center gap-2">
                             <div className="bg-gray-300 p-2 rounded-full">
                                 <Code />
